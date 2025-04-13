@@ -1,0 +1,13 @@
+100 values input at any temperature(frontend) = a 
+temp(frontend) = t
+default 100 values (backend)= tn
+correct 100 values at 30 degrees(frontend) = cv
+
+inputs>>
+a = i will give input as 100 float values(comma separeted) which are generated at any temperature(Example: 20 to 40degrees),
+t = i will enter the temperature "a"
+tn =  this is the per degree variation of 100 float values(comma separeted), use "tn" for normalizing "a" to 30 degrees(example; if "a" has 100 float values(comma separeted) which is at 35 degrees of 25degrees than normalize it to 30 degrees by adding/Substracting)
+cv = it is the final ouput of normalized 100 float values(comma separeted) at 30 degrees
+
+now accordingly build a professional UI/UX with Dark/Light mode and use html, css and javascript for frontend, python for backend.
+im using VS code for this project(Project Name : "NIR Spectra Correction")
