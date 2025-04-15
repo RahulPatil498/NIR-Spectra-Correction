@@ -15,7 +15,7 @@ def normalize():
         if len(a) != 100 or len(tn) != 100:
             return jsonify({'error': 'Both "a" and "tn" must contain exactly 100 float values.'})
 
-        temp_diff = t - 30  # Difference from target 30°C
+        temp_diff = t - 35  # Difference from target 30°C
         cv = [round(a[i] - (tn[i] * temp_diff), 4) for i in range(100)]
 
         return jsonify({'cv': ", ".join(str(v) for v in cv)})
